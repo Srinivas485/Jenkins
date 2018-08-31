@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Test Suite" duration-ms="46871" started-at="2018-08-31T09:35:27Z" finished-at="2018-08-31T09:36:13Z">
+    <groups>
+    </groups>
+    <test name="TestSample" duration-ms="46871" started-at="2018-08-31T09:35:27Z" finished-at="2018-08-31T09:36:13Z">
+      <class name="com.poj.Obj">
+        <test-method status="PASS" signature="open()[pri:0, instance:com.poj.Obj@d70c109]" name="open" is-config="true" duration-ms="7319" started-at="2018-08-31T17:35:27Z" finished-at="2018-08-31T17:35:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open -->
+        <test-method status="PASS" signature="VerifyInvalidLogin(java.lang.String, java.lang.String)[pri:0, instance:com.poj.Obj@d70c109]" name="VerifyInvalidLogin" duration-ms="18581" started-at="2018-08-31T17:35:34Z" data-provider="empLogin" finished-at="2018-08-31T17:35:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[srinu]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[kala]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyInvalidLogin -->
+        <test-method status="PASS" signature="VerifyInvalidLogin(java.lang.String, java.lang.String)[pri:0, instance:com.poj.Obj@d70c109]" name="VerifyInvalidLogin" duration-ms="19593" started-at="2018-08-31T17:35:53Z" data-provider="empLogin" finished-at="2018-08-31T17:36:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rama]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[hga]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyInvalidLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.poj.Obj@d70c109]" name="tearDown" duration-ms="960" started-at="2018-08-31T17:36:12Z" finished-at="2018-08-31T17:36:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.poj.Obj -->
+    </test> <!-- TestSample -->
+  </suite> <!-- Test Suite -->
+</testng-results>
