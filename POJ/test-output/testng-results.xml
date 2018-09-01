@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Test Suite" duration-ms="46871" started-at="2018-08-31T09:35:27Z" finished-at="2018-08-31T09:36:13Z">
+  <suite name="Test Suite" duration-ms="47718" started-at="2018-09-01T00:16:59Z" finished-at="2018-09-01T00:17:46Z">
     <groups>
     </groups>
-    <test name="TestSample" duration-ms="46871" started-at="2018-08-31T09:35:27Z" finished-at="2018-08-31T09:36:13Z">
+    <test name="TestSample" duration-ms="47718" started-at="2018-09-01T00:16:59Z" finished-at="2018-09-01T00:17:46Z">
       <class name="com.poj.Obj">
-        <test-method status="PASS" signature="open()[pri:0, instance:com.poj.Obj@d70c109]" name="open" is-config="true" duration-ms="7319" started-at="2018-08-31T17:35:27Z" finished-at="2018-08-31T17:35:34Z">
+        <test-method status="PASS" signature="open()[pri:0, instance:com.poj.Obj@d70c109]" name="open" is-config="true" duration-ms="9052" started-at="2018-09-01T08:16:59Z" finished-at="2018-09-01T08:17:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- open -->
-        <test-method status="PASS" signature="VerifyInvalidLogin(java.lang.String, java.lang.String)[pri:0, instance:com.poj.Obj@d70c109]" name="VerifyInvalidLogin" duration-ms="18581" started-at="2018-08-31T17:35:34Z" data-provider="empLogin" finished-at="2018-08-31T17:35:53Z">
+        <test-method status="PASS" signature="VerifyInvalidLogin(java.lang.String, java.lang.String)[pri:0, instance:com.poj.Obj@d70c109]" name="VerifyInvalidLogin" duration-ms="19448" started-at="2018-09-01T08:17:08Z" data-provider="empLogin" finished-at="2018-09-01T08:17:28Z">
           <params>
             <param index="0">
               <value>
@@ -27,7 +27,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyInvalidLogin -->
-        <test-method status="PASS" signature="VerifyInvalidLogin(java.lang.String, java.lang.String)[pri:0, instance:com.poj.Obj@d70c109]" name="VerifyInvalidLogin" duration-ms="19593" started-at="2018-08-31T17:35:53Z" data-provider="empLogin" finished-at="2018-08-31T17:36:12Z">
+        <test-method status="PASS" signature="VerifyInvalidLogin(java.lang.String, java.lang.String)[pri:0, instance:com.poj.Obj@d70c109]" name="VerifyInvalidLogin" duration-ms="17545" started-at="2018-09-01T08:17:28Z" data-provider="empLogin" finished-at="2018-09-01T08:17:45Z">
           <params>
             <param index="0">
               <value>
@@ -43,7 +43,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyInvalidLogin -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.poj.Obj@d70c109]" name="tearDown" duration-ms="960" started-at="2018-08-31T17:36:12Z" finished-at="2018-08-31T17:36:13Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.poj.Obj@d70c109]" name="tearDown" duration-ms="1236" started-at="2018-09-01T08:17:45Z" finished-at="2018-09-01T08:17:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
